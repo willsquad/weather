@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+        Weather
+    </title>
+    <link rel="stylesheet" href="files/css/style.css">
+    <link rel="stylesheet" href="files/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+<body>
+   <!--  <i class="wi wi-night-sleet"></i> -->
+   <div id="widget_container">
+       <input type="search" class="city_search" placeholder="Search for a city">
+
+       <!-- End of Widget Card -->
+       <div class="widget_card">
+        <!-- Widget Card Top -->
+         <div class="widget_card__top">
+             <div class="widget_card__top__placeDate">
+                <div class="widget_card__top__placeDate__place">
+                    <div class="widget_card__top__placeDate__place__top_city">
+                        <span class="widget_card__top__placeDate__place__top_city__city">Kochi</span><span class="widget_card__top__placeDate__place__top_city__country">, India</span>
+                    </div>
+                    <div class="widget_card__top__placeDate__place__bottom_weather">
+                        Partly Cloudy
+                    </div>
+                </div>
+                 <div class="widget_card__top__placeDate__date">April 17, 3:05 PM</div>
+            </div>
+            <div class="widget_card__top__temp_c">
+                <i class="wi wi-day-cloudy"></i>
+                29&deg;C
+            </div>
+             <div class="widget_card__top__temp_f">84&deg;F</div>
+         </div>
+         <!-- Widget Card Top -->
+
+         <!-- Widget Card Bottom -->
+         <div class="widget_card__bottom">
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">4:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Cloudy</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-day-cloudy"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">5:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Sunny</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon sunny_icon"><i class="wi wi-day-sunny"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">6:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Cloudy</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-day-cloudy"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">7:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Light Rain</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-night-showers"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">8:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Thunderstorm</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-night-thunderstorm"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">9:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Thunderstorm</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-night-thunderstorm"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">10:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Cloudy</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-night-cloudy"></i></div>
+                </div>
+            </div>
+            <div class="widget_card__bottom__hourly_temp_div">
+                <div class="widget_card__bottom__hourly_temp_div__time">11:00 pm</div>
+                <div class="widget_card__bottom__hourly_temp_div__weather">
+                    <div class="widget_card__bottom__hourly_temp_div__weather__text">Cloudy</div>
+                    <div class="widget_card__bottom__hourly_temp_div__weather__icon"><i class="wi wi-night-cloudy"></i></div>
+                </div>
+            </div>
+         </div>
+         <!-- Widget Card Bottom -->
+       </div>
+       <!-- End of Widget Card -->
+
+   </div>
+</body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="files/js/main.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+</html>
